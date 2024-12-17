@@ -9,7 +9,7 @@ const nav = [
 
 const Header = () => {
   return (
-    <footer className='bg-dark-400'>
+    <footer className='bg-dark-500'>
       <div className='container-lg min-h-[128px] flex items-center'>
         <div className='flex-1 flex items-center gap-10'>
           {nav.map((item, index) => (

@@ -11,7 +11,7 @@ const fetchMeal = (params: FetchMealParams): Promise<FetchMealData> => {
         const type = params.type || randomType();
         const id = Math.random();
         return {
-          id: Math.random(),
+          id,
           name: `${page}_${type}_${id.toString().slice(2, 6)}`,
           picture: require(`assets/images/meal_${type}_${random03()}.jpg`),
         };

@@ -4,7 +4,7 @@ import { publicRoute } from 'routes';
 
 const Header = () => {
   return (
-    <header className='bg-dark-400 sticky top-0 shadow-md z-50'>
+    <header className='bg-dark-500 sticky top-0 shadow-md z-50'>
       <div className='container-lg min-h-[64px] flex items-center'>
         <div className='flex-1 flex items-center justify-between gap-10'>
           <Link to={publicRoute.home.path}>

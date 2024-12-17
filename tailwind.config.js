@@ -13,10 +13,9 @@ module.exports = {
           300: 'var(--color-secondary-300)',
         },
         dark: {
-          200: '#2E2E2E',
-          400: '#414141',
+          400: 'var(--color-dark-400)',
+          500: 'var(--color-dark-500)',
           600: 'var(--color-dark-600)',
-          700: 'var(--color-dark-700)',
         },
         gray: {
           400: 'var(--color-gray-400)',
