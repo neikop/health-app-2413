@@ -1,0 +1,21 @@
+@for $i from 1 through 12 {
+  .max-line-#{$i} {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: #{$i};
+    -webkit-box-orient: vertical;
+  }
+}
+
+.container-lg {
+  max-width: calc(960px + 24px * 2);
+  margin: auto;
+  padding: 0px 24px;
+}
+
+.container-xl {
+  max-width: calc(1280px + 24px * 2);
+  margin: auto;
+  padding: 0px 24px;
+}

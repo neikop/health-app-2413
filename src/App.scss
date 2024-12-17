@@ -1,0 +1,33 @@
+@import 'styles/component';
+
+body {
+  font-family: 'Inter';
+  color: white;
+}
+
+main {
+}
+
+* {
+  outline: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+body > iframe {
+  display: none;
+}
+
+:root {
+  --color-primary-300: #ffcc21;
+  --color-primary-400: #ff963c;
+  --color-primary-500: #ea6c00;
+
+  --color-secondary-300: #8fe9d0;
+
+  --color-dark-600: #2e2e2e;
+  --color-dark-500: #414141;
+  --color-gray-400: #777777;
+}
