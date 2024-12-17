@@ -17,14 +17,14 @@ const MenuItem = ({ path, name, icon, count }: MenuItemProps) => {
   return (
     <Link to={path}>
       <div
-        className={merge('inline-flex items-center gap-2 px-2 py-1 rounded hover:bg-white/20', {
-          'bg-white/10': isSelected,
+        className={merge('inline-flex items-center gap-2 px-2 py-1 rounded hover:bg-white/10', {
+          'text-primary-400': isSelected,
         })}
       >
         <span className='relative'>
           {icon}
           {count && (
-            <div className='absolute top-[-2px] right-[-6px] min-w-[16px] min-h-[16px] text-[10px] bg-primary-500 rounded-full flex justify-center items-center px-1'>
+            <div className='absolute top-[-2px] right-[-6px] min-w-[16px] min-h-[16px] text-[10px] bg-primary-500 text-white rounded-full flex justify-center items-center px-1'>
               {count}
             </div>
           )}
