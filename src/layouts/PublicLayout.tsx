@@ -1,3 +1,4 @@
+import { MoveTopButton } from 'components';
 import { AppFooter, AppHeader } from 'containers';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { publicRoute } from 'routes';
@@ -15,6 +16,7 @@ const PublicLayout = () => {
         </Routes>
       </div>
       <AppFooter />
+      <MoveTopButton />
     </main>
   );
 };

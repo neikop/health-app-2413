@@ -1,5 +1,5 @@
 import { useInfiniteQuery } from '@tanstack/react-query';
-import { Button } from 'components';
+import { Button } from 'components/common';
 import { useSearch } from 'hooks';
 import { Fragment } from 'react';
 import { columnService } from 'services';

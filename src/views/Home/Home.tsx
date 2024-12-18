@@ -1,4 +1,4 @@
-import { FetchMeal } from './components';
+import { BannerGraph, FetchMeal } from './components';
 
 const Home = () => {
   return (
@@ -9,7 +9,9 @@ const Home = () => {
             className='h-[320px] w-[540px]'
             style={{ background: `url(${require('assets/images/meal_d_01.jpg')}) no-repeat center / cover` }}
           />
-          <div className='flex-1 bg-dark-600'></div>
+          <div className='flex-1'>
+            <BannerGraph />
+          </div>
         </div>
       </div>
 

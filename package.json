@@ -9,6 +9,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.2",
     "react-scripts": "5.0.1",
+    "recharts": "^2.4.3",
     "sass": "^1.55.0",
     "tailwind-merge": "^1.10.0"
   },

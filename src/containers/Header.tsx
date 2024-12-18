@@ -1,3 +1,4 @@
+import { DropdownMenu } from 'components';
 import { AppMenu } from 'containers';
 import { Link } from 'react-router-dom';
 import { publicRoute } from 'routes';
@@ -13,7 +14,8 @@ const Header = () => {
           <div className='flex items-center gap-3 ml-auto'>
             <AppMenu />
           </div>
-          <img src={require('assets/icons/icon_menu.svg').default} />
+
+          <DropdownMenu />
         </div>
       </div>
     </header>

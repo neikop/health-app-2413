@@ -1,5 +1,5 @@
 import { useInfiniteQuery } from '@tanstack/react-query';
-import { Button, HexagonButton } from 'components';
+import { Button, HexagonButton } from 'components/common';
 import { useSearch } from 'hooks';
 import { Fragment } from 'react';
 import { mealService } from 'services';

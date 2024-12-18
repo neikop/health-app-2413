@@ -1,4 +1,4 @@
-import { FetchDiary } from './components';
+import { ExerciseGraph, ExerciseTable, FetchDiary } from './components';
 
 const RECORD_TYPES = [
   {
@@ -37,9 +37,8 @@ const Record = () => {
         ))}
       </div>
 
-      <div className='h-[320px] bg-dark-500'></div>
-      <div className='h-[280px] bg-dark-500'></div>
-
+      <ExerciseGraph />
+      <ExerciseTable />
       <FetchDiary />
     </div>
   );
