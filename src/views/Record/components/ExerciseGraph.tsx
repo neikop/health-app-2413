@@ -18,7 +18,7 @@ const data = [
 
 const ExerciseGraph = () => {
   return (
-    <div className='bg-dark-500 px-6 py-4'>
+    <div className='bg-dark-500 px-6 py-4 scroll-mt-24' id='body_record'>
       <div className='flex'>
         <div className='text-sm w-[96px]'>BODY RECORD</div>
         <div className='text-[22px]'>2021.05.21</div>

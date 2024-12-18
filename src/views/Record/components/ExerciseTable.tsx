@@ -25,7 +25,7 @@ const Record = ({ record }: { record: RecordType }) => (
 
 const ExerciseTable = () => {
   return (
-    <div className='h-[280px] bg-dark-500 px-6 py-4 flex flex-col'>
+    <div className='h-[280px] bg-dark-500 px-6 py-4 flex flex-col scroll-mt-24' id='my_exercise'>
       <div className='flex'>
         <div className='text-sm w-[96px] pr-3'>MY EXERCISE</div>
         <div className='text-[22px]'>2021.05.21</div>

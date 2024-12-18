@@ -20,7 +20,7 @@ const FetchDiary = () => {
   );
 
   return (
-    <div className='text-dark-500'>
+    <div className='text-dark-500 scroll-mt-24' id='my_diary'>
       <div className='text-[22px]'>MY DIARY</div>
 
       <div className='flex flex-wrap gap-3'>
